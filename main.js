@@ -4,12 +4,14 @@ date = new Date().toLocaleDateString();
 document.getElementById("DataAtual").innerText = date;
 DataAtual.style.fontWeight = "bold";
 DataAtual.style.fontSize = "2rem";
-DataAtual.style.color = "red";
+DataAtual.style.color = "#FFFFFF";
+DataAtual.style.fontFamily = "Gruppo, cursive";
 
-let resultado = document.getElementById("Relogio");
-resultado.style.fontWeight = "bold";
-resultado.style.fontSize = "5rem";
-resultado.style.color = "red";
+let relogio = document.getElementById("Relogio");
+relogio.style.fontFamily = "Gruppo, cursive"
+relogio.style.fontWeight = "bold";
+relogio.style.fontSize = "8rem";
+relogio.style.color = "#FFFFFF";
 
 setInterval(showTime, 0000);
 function showTime() {
@@ -27,3 +29,7 @@ function showTime() {
   document.getElementById("Relogio").innerHTML = currentTime;
 }
 showTime();
+
+let videoBackground = document.getElementById("videoBackground");
+
+

@@ -1,35 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M1S03 &middot; Exercício 5</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Gruppo&display=swap");
+    </style>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> M1S03 &middot; Exercício 5</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+  <body id="body">
+    <video
+      id="videoBackground"
+      src="https://joy1.videvo.net/videvo_files/video/free/2014-07/large_watermarked/Galaxy_With_Customization_preview.mp4"
+      autoplay
+      muted
+      loop
+    ></video>
 
-<body>
-    <header>
-        <h1>M1S03 - Exercício
-            5</h1>
-    </header>
-    <section class="Section1">
-        <h2>Relógio</h2>
+    <div class="divisao" id="divisao">
+ 
+      <section class="Section1">
         <div class="container">
-            <div id="DataAtual">
-            </div>
-            <div id="Relogio">
-            </div>
+          <h1>M1S03 - Exercício 5</h1>
+          <h2>Relógio</h2>
         </div>
-    </section>
-    <footer>
-        <h3>Aluno: Philippe Rocca Bretas</h3>
-        <p>Curso Full Stack - DEVinHouse - EDP House</p>
-        <p>SENAI - SC</p>
-    </footer>
 
+        <div class="container">
+          <div>
+            <h1 id="Relogio"></h1>
+          </div>
+          <div>
+            <h1 id="DataAtual"></h1>
+          </div>
+       
+        </div>
+      </section>
+
+   
+    </div>
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>

@@ -14,18 +14,12 @@ background-color: #000000;
 
 h1 {
   color: #ffffff;
+text-decoration:1px dotted #ffffff;
 font-family: 'Gruppo', cursive;
-font-size: 1.2rem;
 }
 h2{
   color:#FFFFFF;
   font-family: 'Gruppo', cursive;
-  font-size: 1.5rem;
-}
-
-h3 {
-  color: #ffffff;
-font-family: 'Gruppo', cursive;
 }
 
 header {
@@ -56,5 +50,4 @@ header {
   height: 100vh;
 
 }
-
 

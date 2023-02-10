@@ -1,15 +1,16 @@
-
 let DataAtual = document.getElementById("DataAtual");
 
 date = new Date().toLocaleDateString();
 document.getElementById("DataAtual").innerText = date;
+DataAtual.style.fontWeight = "bold";
 DataAtual.style.fontSize = "2rem";
 DataAtual.style.color = "#FFFFFF";
 DataAtual.style.fontFamily = "Gruppo, cursive";
 
 let relogio = document.getElementById("Relogio");
 relogio.style.fontFamily = "Gruppo, cursive"
-relogio.style.fontSize = "5.8rem";
+relogio.style.fontWeight = "bold";
+relogio.style.fontSize = "8rem";
 relogio.style.color = "#FFFFFF";
 
 setInterval(showTime, 0000);

@@ -16,10 +16,20 @@ h1 {
   color: #ffffff;
 text-decoration:1px dotted #ffffff;
 font-family: 'Gruppo', cursive;
+font-size: 1.2rem;
 }
 h2{
   color:#FFFFFF;
   font-family: 'Gruppo', cursive;
+  font-size: 1.5rem;
+}
+
+h3 {
+  color: #ffffff;
+text-decoration:1px dotted #ffffff;
+font-family: 'Gruppo', cursive;
+
+
 }
 
 header {
@@ -61,7 +71,7 @@ header {
 */
 
 @media (max-width: 480px) {
-  h1 {
+  h3 {
 font-size: 4rem
 }
 
@@ -69,7 +79,7 @@ font-size: 4rem
 
 
 @media (max-width: 768px) {
-  h1 {
+  h3 {
 font-size: 5rem
 }
 
@@ -77,15 +87,15 @@ font-size: 5rem
 
 
 @media (max-width: 1024px) {
-  h1 {
+  h3 {
 font-size: 6rem
 }
 
 }
 
 @media (max-width: 1280px) {
-  h1 {
-font-size: 7rem
+  h3 {
+font-size: 6rem
 }
 
 }

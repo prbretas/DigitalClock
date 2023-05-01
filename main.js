@@ -1,6 +1,6 @@
 let DataAtual = document.getElementById("DataAtual");
 
-date = new Date().toLocaleDateString();
+let date = new Date().toLocaleDateString();
 document.getElementById("DataAtual").innerText = date;
 DataAtual.style.fontWeight = "bold";
 DataAtual.style.fontSize = "2rem";
@@ -12,6 +12,46 @@ relogio.style.fontFamily = "Gruppo, cursive"
 relogio.style.fontWeight = "bold";
 relogio.style.fontSize = "5.8rem";
 relogio.style.color = "#FFFFFF";
+
+
+let diaSemana = document.getElementById("diaSemana");
+
+function getDayy() {
+  let date = new Date();
+  let dia = date.getDay();
+  let mes = date.getMonth();
+  let ano = date.getFullYear();
+
+ 
+
+  if(dia=== 0) {
+    dia = "Domingo";
+  } else if (dia === 1) {
+    dia = "Segunda-feira";
+  }
+  else if (dia === 2) {
+    dia = "Terça-feira";
+  }
+  else if (dia === 3) {
+    dia = "Quarta-feira";
+  }
+  else if (dia === 4) {
+    dia = "Quinta-feira";
+  }
+  else if (dia === 5) {
+    dia = "Sexta-feira";
+  }
+  else if (dia === 6) {
+    dia = "Sábado";
+  }
+  document.getElementById("diaSemana").innerHTML = dia;
+}
+
+getDayy();
+
+
+
+
 
 setInterval(showTime, 0000);
 function showTime() {
@@ -79,3 +119,4 @@ videoBackground.setAttribute('src', sourceVideos[numeroAleatorio])
 
 //MOSTRAR NO CONSOLE NUMERO ALEATORIO GERADO
 console.log("O número do video selecionado é " + numeroAleatorio)
+
